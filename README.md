@@ -148,7 +148,7 @@ const themeColors = {
 };
 ```
 
-#### Other minor changes
+### Other minor changes
 
 Do the following to truly make the Portfolio your own.
 
