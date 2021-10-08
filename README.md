@@ -3,7 +3,7 @@
         <img src="./public/favicon.ico" alt="Logo" width="60" height="60" />
     </a>
     <br/>
-    <a href="https://ayushacharya.netlify.app/">ayushacharya.netlify.app</a>
+    <a href="https://portfolio-website-template.netlify.app/">portfolio-website-template.netlify.app</a>
 </h2>
 
 <div align="center">
