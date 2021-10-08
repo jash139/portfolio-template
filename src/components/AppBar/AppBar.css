@@ -1,0 +1,7 @@
+.navbar-bubble {
+    background-color: #3F4B4D;
+    border-radius: 2rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    z-index: 1;
+}
