@@ -1,7 +1,9 @@
 <h2 align="center">
-    <img src="./public/favicon.ico" alt="Logo" width="60" height="60" />
+    <a href="https://github.com/jash139/">
+        <img src="./public/favicon.ico" alt="Logo" width="60" height="60" />
+    </a>
     <br/>
-    <a href="https://ayushacharya.netlify.app/" target="_blank">ayushacharya.netlify.app</a>
+    <a href="https://ayushacharya.netlify.app/">ayushacharya.netlify.app</a>
 </h2>
 
 <div align="center">
