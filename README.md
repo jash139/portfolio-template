@@ -1,5 +1,5 @@
 <h2 align="center">
-    <img src="./public/favicon.ico" alt="Logo" width="100" height="100" />
+    <img src="./public/favicon.ico" alt="Logo" width="60" height="60" />
     <br/>
     <a href="https://ayushacharya.netlify.app/" target="_blank">ayushacharya.netlify.app</a>
 </h2>
