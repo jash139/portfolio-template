@@ -10,11 +10,10 @@
 
 <br/>
 
-<p align="center">
-    Portfolio Template by [Ayush Acharya](https://github.com/jash139/) developed using Reactjs with easy setup.
-    Just modify your relevant details in `config.js` file, add your resume and projects,
-    your Portfolio Website is good to go!
-</p>
+Portfolio Template by [Ayush Acharya](https://github.com/jash139/) developed using Reactjs with easy setup.
+<br />
+Just modify your relevant details in `config.js` file, add your resume and projects,
+your Portfolio Website is good to go!
 
 # Table of contents
 
@@ -87,6 +86,7 @@ const projectDetails = [
 ```
 
 For project `image` add your project image to `images` folder in `src` directory and specify the same in the `projectDetails`.
+<br />
 Example:
 `~/src/images/myProjectImage.PNG`
 
@@ -142,7 +142,7 @@ You can customize the appearance of your Portfolio to your choice by providing p
 const themeColors = {
     primaryColor: "",
     secondaryColor: "",
-    black: "",
+    ...
 };
 ```
 
@@ -154,7 +154,7 @@ Do the following to truly make the Portfolio your own.
 * Change the details in `index.html` in `public` directory to reflect your details
 
 ## Deployment
-Run build command with publish directory: `build`.
+Run build command with publish directory as `build`.
 
 ```bash
 # build command

@@ -26,7 +26,7 @@ const useStyles = makeStyles(theme => ({
         alignItems: "center",
         justifyContent: "center",
         minHeight: 300,
-        marginTop: "8rem",
+        marginTop: "5rem",
         [theme.breakpoints.down("sm")]: {
             minHeight: 200,
         },
@@ -88,6 +88,19 @@ const useStyles = makeStyles(theme => ({
             cursor: "pointer",
         },
     },
+    templateBy: {
+        color: themeColors.black,
+        fontSize: "1rem",
+        fontWeight: 500,
+        marginBottom: "2rem",
+    },
+    developerLink: {
+        color: themeColors.black,
+        fontWeight: 700,
+        "&:hover": {
+            color: themeColors.primaryColor,
+        },
+    },
     snackbar: {
         backgroundColor: themeColors.primaryColor,
         boxShadow: "none",
@@ -146,6 +159,7 @@ function ContactSection() {
                         <p className={classes.link} onClick={() => openTab(contactLinks.github)}>{contactLinks.github}</p>
                     </div>
                 </div>
+                <p className={classes.templateBy}>• Portfolio Template by <span><a className={classes.developerLink} href="https://github.com/jash139" target="_blank" rel="noopener noreferrer">Ayush Acharya</a></span> •</p>
                 <Snackbar
                     ContentProps={{
                         classes: {
